@@ -19,7 +19,7 @@ public class Printer implements Runnable {
                 System.out.println(String.valueOf(number).repeat(10)); // Печать порции чисел
                 Thread.sleep(1000); // Пауза в 1 секунду
             } catch (InterruptedException e) {
-                System.out.println("Thread interrupted: " + e); // Обработка прерывания потока
+//                System.out.println("Thread interrupted: " + e); // Обработка прерывания потока
                 {
                     nextThread.interrupt(); // Передача прерывания следующему потоку
                 }
