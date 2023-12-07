@@ -23,7 +23,6 @@ public class Printer implements Runnable {
                 {
                     nextThread.interrupt(); // Передача прерывания следующему потоку
                 }
-                break; // Выход из цикла, если поток был прерван
             }
         }
     }
